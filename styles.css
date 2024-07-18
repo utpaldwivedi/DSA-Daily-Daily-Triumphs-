@@ -1,0 +1,147 @@
+@font-face{
+    font-family: Poppins;
+    src: url(./assets/Poppins.ttf);
+}
+@font-face{
+    font-family: Unicode;
+    src: url(./assets/Unicode.ttf);
+}
+
+.setting,.codeforcesTab,.leetcodeTab,#submit{
+    cursor: pointer;
+}
+
+
+body{
+    width: 450px;
+    height: fit-content;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: Poppins;
+    background-color: aliceblue;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    height: 40px;
+    position: relative;
+}
+.greeting{
+    height: 100%;
+    font-size: 25px;
+    font-family: Unicode;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: rgb(27, 205, 27);
+}
+
+.setting{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 15px;
+}
+.st{
+    display: none;
+}
+
+.incomplete,.complete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.complete{
+    display: none;
+    font-size: 30px;
+}
+
+
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 17px;
+    gap: 10px;
+    margin: 25px 10px;
+    
+}
+.submit{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid lightblue;
+    margin: 15px 0;
+}
+
+.content{
+    display: none;
+    margin: 10px 5px;
+}
+
+.tabs{
+    display: flex;
+    height: 40px;
+}
+.codeforcesTab,.leetcodeTab{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+    margin: 0 10px;
+}
+.codeforcesTab{
+    background-color: rgb(178, 225, 240);
+}
+
+.codeforces,.leetcode{
+    padding: 3px 10px;
+    font-family: Unicode;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.data{
+    margin: 40px 5px;
+}
+.quesDiv{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.quesDivHead,.ratingDivHead,.tagsDivHead{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.hidden{
+    display: none;
+}

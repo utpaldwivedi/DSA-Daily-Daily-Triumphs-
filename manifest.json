@@ -1,0 +1,17 @@
+{
+    "name":"DSA Daily",
+    "version":"1.0",
+    "manifest_version":3,
+    "description":"Track number of questions solved daily on Codeforces and Leetcode",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "./assets/icon.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+    ]
+}
