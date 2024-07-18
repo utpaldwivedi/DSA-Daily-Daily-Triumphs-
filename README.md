@@ -1,3 +1,5 @@
+# DSA_Daily-extension
+
 To use this extension locally, follow the following steps-
 
 1. Go to any directory in your pc and type `git clone https://github.com/utpaldwivedi/DSA_Daily-extension.git` in terminal to download the repo
